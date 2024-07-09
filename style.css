@@ -1,0 +1,147 @@
+/* Reset CSS */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+dl,
+dd,
+ol,
+ul,
+figure,
+hr {
+  margin: 0;
+  padding: 0;
+}
+body {
+  line-height: 1.5;
+  font-family: "Azeret Mono", monospace;
+  background-color: #ffffff;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+/* Navbar Style CSS */
+
+.nav_bar {
+  width: 1250px;
+  height: 100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_bar .logo_name {
+  font-size: 28px;
+  font-weight: 800;
+  color: #0d1321;
+}
+.nav_bar .logo_name > span {
+  color: red;
+}
+.btn {
+  padding: 7px 15px;
+  border-radius: 8px;
+  border: none;
+  border: 1px solid #0d1321;
+  opacity: 0.8;
+  transition: 0.5s;
+}
+.btn > a {
+  font-size: 16px;
+  font-weight: 500;
+  color: #0d1321;
+}
+.btn:hover {
+  border: 1px solid red;
+}
+
+/* Banner Style CSS */
+.banner_bg {
+  background-image: url(./images/hero-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner {
+  width: 1000px;
+  height: 580px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.banner .banner_title {
+  text-align: center;
+  color: #0d1321;
+  font-size: 45px;
+  font-weight: 800;
+  line-height: 60px;
+  margin-top: 20px;
+}
+.banner .banner_desc {
+  color: #0d1321;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.banner .btn {
+  padding: 10px 15px;
+  background-color: #006c86;
+  border: 1px solid #0d1321;
+}
+.banner .btn:hover {
+  border: 2px solid orange;
+}
+.banner .btn a {
+  color: #ffffff;
+  text-transform: capitalize;
+}
+
+/* Main Section Style CSS */
+main {
+  width: 1250px;
+  height: 800px;
+  margin: 80px auto;
+  background: rgba(13, 19, 33, 0.02);
+  border-radius: 10px;
+}
