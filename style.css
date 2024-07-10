@@ -44,7 +44,7 @@ h6 {
 }
 /* Navbar Style CSS */
 .nav_bar {
-  max-width: 1200px;
+  width: 1200px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -122,3 +122,87 @@ h6 {
 }
 
 /* Development Style CSS */
+.container {
+  width: 1250px;
+  margin: 0 auto;
+}
+.development {
+  border-radius: 10px;
+  background: rgba(13, 19, 33, 0.02);
+  padding: 50px 40px;
+  margin: 80px;
+}
+.section_title {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.section_title h2 {
+  font-size: 32px;
+  font-weight: 800;
+  text-align: center;
+  text-transform: capitalize;
+}
+.section_title p {
+  font-size: 16px;
+  color: #0d1321;
+  opacity: 0.7;
+  text-align: center;
+}
+.card {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  padding: 30px;
+  margin: 30px;
+  border-radius: 10px;
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+.card2 {
+  background: linear-gradient(
+    270deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+.card_text {
+  width: 70%;
+}
+.card_text h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: rgba(13, 19, 33, 0.7);
+  margin-bottom: 30px;
+}
+.card_text p {
+  font-size: 16px;
+  color: #0d1321;
+  opacity: 0.7;
+  margin-bottom: 30px;
+  transition: 0.8s;
+}
+.card_text .btn {
+  padding: 5px 10px;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+}
+.card_text .btn:hover {
+  translate: 2rem;
+}
+.card_img {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card_img img {
+  width: 100%;
+}
+.card_img img:hover {
+  scale: 1.1;
+}
