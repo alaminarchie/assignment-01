@@ -265,3 +265,102 @@ h6 {
   font-weight: 700;
   text-decoration: underline;
 }
+
+/* Next Skills style CSS */
+.next_target {
+  margin-bottom: 50px;
+}
+.next_skill {
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.next_skill_img {
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.next_skill_text {
+  padding-left: 20px;
+}
+.next_skill_text h4 {
+  font-size: 24px;
+  font-weight: 800;
+}
+.next_skill p {
+  font-size: 16px;
+  color: #0d1321;
+  opacity: 0.7;
+  margin-bottom: 10px;
+}
+.next_skill_text a {
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+.support {
+  height: 250px;
+  background-image: url(./images/handshake.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.support h2 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 700;
+}
+.support p {
+  width: 700px;
+  font-size: 16px;
+  text-align: center;
+  color: #ffffff;
+  opacity: 0.7;
+  margin-bottom: 20px;
+}
+.support form input[type="text"] {
+  width: 500px;
+  padding: 15px;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  outline: none;
+}
+.support form input[type="submit"] {
+  width: 150px;
+  font-size: 18px;
+  font-weight: 700;
+  background: rgb(255, 255, 255);
+  padding: 15px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+footer {
+  background: rgba(13, 19, 33, 0.03);
+  padding: 20px 0;
+}
+.footer_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer_content p {
+  font-size: 18px;
+  font-weight: 700;
+}
