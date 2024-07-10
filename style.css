@@ -62,86 +62,135 @@ h6 {
 /* Navbar Style CSS */
 
 .nav_bar {
-  width: 1250px;
-  height: 100px;
+  width: 1200px;
+  height: 80px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.nav_bar .logo_name {
+.nav_bar .logo {
   font-size: 28px;
   font-weight: 800;
   color: #0d1321;
 }
-.nav_bar .logo_name > span {
-  color: red;
+.nav_bar .logo:hover {
+  scale: 1.2;
 }
 .btn {
-  padding: 7px 15px;
-  border-radius: 8px;
-  border: none;
+  padding: 5px 10px;
   border: 1px solid #0d1321;
-  opacity: 0.8;
-  transition: 0.5s;
-}
-.btn > a {
-  font-size: 16px;
-  font-weight: 500;
-  color: #0d1321;
+  border-radius: 5px;
 }
 .btn:hover {
-  border: 1px solid red;
+  translate: -1rem;
+}
+.btn a {
+  font-size: 16px;
+  font-weight: 600;
 }
 
-/* Banner Style CSS */
-.banner_bg {
+/* intro Section style css */
+.intro {
+  height: 600px;
   background-image: url(./images/hero-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
-}
-.banner {
-  width: 1000px;
-  height: 580px;
-  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-.banner .banner_title {
   text-align: center;
-  color: #0d1321;
-  font-size: 45px;
-  font-weight: 800;
-  line-height: 60px;
-  margin-top: 20px;
 }
-.banner .banner_desc {
-  color: #0d1321;
+.intro .intro_img {
+  width: 250px;
+  margin-top: -80px;
+}
+.intro .intro_title {
+  text-align: center;
+  font-size: 38px;
+  font-weight: 800;
+  padding: 0 200px;
+  line-height: 50px;
+}
+.intro .intro_desc {
+  text-align: center;
   font-size: 16px;
   font-weight: 400;
-  text-align: center;
-  margin-bottom: 20px;
+  padding: 0 200px;
+  color: #0d1321;
+  margin-bottom: 30px;
 }
-.banner .btn {
-  padding: 10px 15px;
-  background-color: #006c86;
-  border: 1px solid #0d1321;
-}
-.banner .btn:hover {
-  border: 2px solid orange;
-}
-.banner .btn a {
+.intro .btn {
+  padding: 8px 15px;
+  background-color: #0d1321;
   color: #ffffff;
   text-transform: capitalize;
 }
-
-/* Main Section Style CSS */
-main {
+.intro .btn:hover {
+  scale: 1.1;
+  translate: none;
+}
+.digital_section {
   width: 1250px;
-  height: 800px;
-  margin: 80px auto;
-  background: rgba(13, 19, 33, 0.02);
+  margin: 100px auto;
+  padding: 50px 80px;
   border-radius: 10px;
+  background: rgba(13, 19, 33, 0.02);
+}
+.digital_section .section_title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 800;
+}
+.digital_section .section_desc {
+  text-align: center;
+  font-size: 16px;
+  color: #0d1321;
+  padding: 0 30px;
+  margin-bottom: 30px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  border-radius: 10px;
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+  margin: 30px 0;
+}
+.item2 {
+  background: linear-gradient(
+    270deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+.item h3 {
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
+.item p {
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 16px;
+  color: #0d1321;
+  margin-bottom: 20px;
+}
+.item .item_btn {
+  padding: 5px 10px;
+  border: 1px solid #0d1321;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+}
+.item .item_btn a {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgba(13, 19, 33, 0.7);
 }
