@@ -206,3 +206,16 @@ h6 {
 .card_img img:hover {
   scale: 1.1;
 }
+/* my inspiration style css */
+.video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.video iframe {
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+  padding: 20px;
+}
